@@ -49,10 +49,6 @@ group :test do
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
 end
-
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
 gem 'bootstrap', '5.0.0'
 gem 'devise', '~> 4.8', '>= 4.8.0'
 gem 'devise_masquerade', '~> 1.3'
